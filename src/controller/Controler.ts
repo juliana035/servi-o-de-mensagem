@@ -24,11 +24,11 @@ getMensagem(){
       return this. mensagemService.createMensagem (mensagem)
     }
 
-    @Post('gravar')
-    async gravar(@Body() data:Mensagem): Promise<any>{
-        let resultado = this.mensagemService.gravar(data)
-        return resultado
+  //   @Post('gravar')
+  //   async gravar(@Body() data:Mensagem): Promise<any>{
+  //       let resultado = this.mensagemService.gravar(data)
+  //       return resultado
    
-  }
+  // }
   
 }
